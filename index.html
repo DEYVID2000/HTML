@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ortobom</title>
-    <style>
-        body
-    </style>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
@@ -17,20 +16,20 @@
         <p>Sua loja preferida da Ortobom</p>
     </header>
 <hr>
-    <nav>
+    <nav class="barra_de_menu">
         <ol>
 
             <li>
-                <a href="#1">colchão de mola</a>
+                <a class="btn" href="#1">colchão de mola</a>
             </li>
             <li>
-                <a href="#2">colchão de espuma</a>
+                <a class="btn" href="#2">colchão de espuma</a>
             </li>
             <li>
-                <a href="#3">colchão de acoplado</a>
+                <a class="btn" href="#3">colchão de acoplado</a>
             </li>
             <li>
-                <a href="#4">colchão de ortopédico</a>
+                <a class="btn" href="#4">colchão de ortopédico</a>
             </li>
 
         </ol>
@@ -44,6 +43,7 @@
 
             <table>
                 <thead>
+                    <th>#</th>
                     <th>Imagem</th>
                     <th>Descrição</th>
                 </thead>
@@ -60,6 +60,7 @@
                             <h3>Colchão de mola</h3>
                             <p>Um bom colchão de mola para suas notes de dormir</p>
                             <h4><b>R$ 900,00</b></h4>
+                            <a href="checkout.html" class= "btn btn-add">comprar</a>
                         </td>
 
                     </tr>
@@ -73,6 +74,7 @@
                             <h3>Colchão de espuma</h3>
                             <p>Um bom colchão de espuma para suas notes de dormir</p>
                             <h4><b>R$ 400,00</b></h4>
+                            <a href="checkout.html" class= "btn btn-add">comprar</a>
                         </td>
 
                     </tr>
@@ -86,10 +88,12 @@
                             <h3>Colchão de acoplado</h3>
                             <p>Um bom colchão de acoplado para suas notes de dormir</p>
                             <h4><b>R$ 600,00</b></h4>
+                            <a href="checkout.html" class= "btn btn-add">comprar</a>
                         </td>
 
                     </tr>
                     <tr>
+
 
                         <td id="4"></td>
                         <td>
@@ -99,6 +103,7 @@
                             <h3>Colchão de ortopédico</h3>
                             <p>Um bom colchão de ortopédico para suas notes de dormir</p>
                             <h4><b>R$ 1.000,00</b></h4>
+                            <a href="checkout.html" class= "btn btn-add">comprar</a>
                         </td>
 
                     </tr>
@@ -111,49 +116,12 @@
         </section>
     </div>
 
-    <div>
-        <aside>
-
-            <fieldset>
-
-                <legend>Quero comprar</legend>
-
-                <form method="post" action="index.html">
-
-                    <label>Nome</label><br>
-                    <input type="text" name="nome"><br>
-                    <label>Email</label><br>
-                    <input type="email" name="email"><br>
-
-                    <label>Colchão</label><br>
-                    <input type="radio" name="colchão" value="1"> <label>colchão de mola</label><br>
-                    <input type="radio" name="colchão" value="2"> <label>colchão de espuma</label><br>
-                    <input type="radio" name="colchão" value="3"> <label>colchão acoplado </label><br>
-                    <input type="radio" name="colchão" value="4 "> <label>colchão ortopédico</label><br>
-
-                    <label>Forma de pagamento </label><br>
-                    <select name="pagamento">
-                        <option value="dinheiro">dinheiro</option>
-                        <option value="debito">debito</option>
-                        <option value="credito">credito</option>
-                        <option value="pix">pix</option>
-                    </select>
-                    <br>
-                    <button type="submit">comprar</button>
-                    <button type="reset">Limpar</button>
-                </form>
-
-            </fieldset>
-
-        </aside>
-    </div>
-
     <footer>
 
         <br>
         <br>
         <hr>
-        <p  style="text-align: center;">Ortobom &reg; 2024 - By Thalles</p>
+        <p  style="text-align: center;">Ortobom &reg; 2024 - By Deyvid </p>
         <br>
         <br>
 

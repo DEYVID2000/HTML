@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortobom</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Ortobom</h1>
+        <p>Sua loja preferida da Ortobom</p>
+    </header>
+
+    <div>
+        <aside>
+
+            <fieldset>
+                <legend>checkout</legend>
+
+                <form method="post">
+                    <label>Colchão</label>
+                    <input class="form-control" type="text" value="Colchao de mola" /> <br />
+
+                    <label>Nome</label><br>
+                    <input class="form-control" type="text" autofocus aria-placeholder="Informe seu nome completo" name="nome"><br>
+                    <label>Email</label><br>
+                    <input class="form-control" type="email" placeholder="Informe seu email" required name="email"><br>
+
+                    <label>Colchão</label><br>
+                    <input type="radio" name="colchão" value="1"> <label>colchão de mola</label><br>
+                    <input type="radio" name="colchão" value="2"> <label>colchão de espuma</label><br>
+                    <input type="radio" name="colchão" value="3"> <label>colchão acoplado </label><br>
+                    <input type="radio" name="colchão" value="4 "> <label>colchão ortopédico</label><br>
+
+                    <label>Forma de pagamento </label><br>
+                    <select class="form-control" name="pagamento">
+                        <option value="dinheiro">dinheiro</option>
+                        <option value="debito">debito</option>
+                        <option value="credito">credito</option>
+                        <option value="pix">pix</option>
+                    </select>
+                    <br>
+                    <button class="btn btn-salvar" type="submit">comprar</button>
+                    <button class="btn btn-limpar" type="reset">Limpar</button>
+                </form>
+
+            </fieldset>
+
+        </aside>
+    </div>
+
+    <footer>
+
+        <br>
+        <br>
+        <hr>
+        <p  style="text-align: center;">Ortobom &reg; 2024 - By Deyvid </p>
+        <br>
+        <br>
+
+    </footer>
+
+
+
+
+
+</body>
+
+</html>
